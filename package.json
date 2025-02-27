@@ -1,0 +1,19 @@
+{
+  "name": "nodejs_learning",
+  "version": "1.0.0",
+  "description": "Node.js Crash Course Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanthushaMunasinghe/NodeJS_Learning.git"
+  },
+  "author": "Santhusha Munasinghe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SanthushaMunasinghe/NodeJS_Learning/issues"
+  },
+  "homepage": "https://github.com/SanthushaMunasinghe/NodeJS_Learning#readme"
+}
