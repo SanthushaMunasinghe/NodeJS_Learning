@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Node.js Crash Course Code",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --env-file=.env server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SanthushaMunasinghe/NodeJS_Learning/issues"
   },
-  "homepage": "https://github.com/SanthushaMunasinghe/NodeJS_Learning#readme"
+  "homepage": "https://github.com/SanthushaMunasinghe/NodeJS_Learning#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
